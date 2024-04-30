@@ -1386,27 +1386,21 @@
                     text-align: center;
                     color: _palette(accent, fg);
                     z-index: 1;
-                    
-                    h1 {
-                        @include breakpoint('<=narrower'){
-                            margin: 0;
+
+                    em {
+                        font-style: normal;
+                        font-weight: 300;
+                    }
+
+                    a {
+                        border-bottom: none;
+
+                        img {
+                            height: 44px;
+                            padding-bottom: 4px;
+                            padding-top: 4px;
+                            vertical-align: middle;
                         }
-                        
-                        a {
-                            border-bottom: none;
-                            
-                            em {
-                                font-style: normal;
-                                font-weight: 300;
-                            }
-                            
-                            img {
-                                position: relative;
-                                height: 44px;
-                                padding-bottom: 4px;
-                                vertical-align: middle;
-                            }
-                        } 
                     }
                 }
 
